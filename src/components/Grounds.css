@@ -1,0 +1,24 @@
+.groundLink {
+  box-shadow: black 0px 4px 4px;
+  margin: 0.5rem;
+  padding: 0.5rem;
+  width: 250px;
+}
+.grounds {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.grounds a {
+  text-decoration: none;
+  cursor: pointer;
+  color: black;
+}
+.grounds h1 {
+  box-shadow: rgb(230, 92, 42) 0px 4px 4px;
+  color: rgb(230, 92, 42);
+  font-size: xx-large;
+  margin: 1rem auto 1rem auto;
+  width: 60%;
+}
+
