@@ -14,6 +14,9 @@
   cursor: pointer;
   color: black;
 }
+.groundLink:hover {
+  border: black 2px solid;
+}
 .grounds h1 {
   box-shadow: rgb(230, 92, 42) 0px 4px 4px;
   color: rgb(230, 92, 42);
@@ -21,4 +24,3 @@
   margin: 1rem auto 1rem auto;
   width: 60%;
 }
-

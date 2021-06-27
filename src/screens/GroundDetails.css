@@ -10,6 +10,9 @@
   cursor: pointer;
   margin: 1rem;
 }
+.groundDetails button:hover {
+  border: rgb(230, 92, 42) 2px solid;
+}
 .groundDetails div {
   margin: 0.5rem;
 }

@@ -23,6 +23,9 @@
   text-decoration: none;
   width: 250px;
 }
+.favoriteGround a:hover, .remove:hover {
+  border: black 2px solid;
+}
 .remove {
   background-color: white;
   border: black 1px solid;
