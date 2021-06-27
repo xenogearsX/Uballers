@@ -3,6 +3,16 @@
   display: flex;
   flex-direction: column;
 }
+.groundDetails button {
+  background-color: white;
+  border: rgb(230, 92, 42) 1px solid;
+  box-shadow: rgb(230, 92, 42) 0px 2px 2px;
+  cursor: pointer;
+  margin: 1rem;
+}
+.groundDetails div {
+  margin: 0.5rem;
+}
 .groundDetails h1 {
   box-shadow: rgb(230, 92, 42) 0px 4px 4px;
   color: rgb(230, 92, 42);
@@ -16,14 +26,4 @@
   font-size: xx-large;
   margin: 1rem;
   width: auto;
-}
-.groundDetails button {
-  background-color: white;
-  border: rgb(230, 92, 42) 1px solid;
-  box-shadow: rgb(230, 92, 42) 0px 2px 2px;
-  cursor: pointer;
-  margin: 1rem;
-}
-.groundDetails div {
-  margin: 0.5rem;
 }

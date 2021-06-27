@@ -1,7 +1,10 @@
 import { useContext, useEffect, useState } from 'react'
-import UserContext from '../context/UserContext'
-import './Favorites.css'
+
 import { Link } from 'react-router-dom'
+
+import UserContext from '../context/UserContext'
+
+import './Favorites.css'
 
 const Favorites = () => {
   const groundsData = useContext(UserContext)[0].allGrounds
@@ -18,6 +21,7 @@ const Favorites = () => {
       )
     )
   }, [trigger])
+
   const removeFavorite = id => {
     const tempFavorite = favorite
     tempFavorite.splice(
