@@ -1,0 +1,7 @@
+.select {
+  background-color: white;
+  border: rgb(230, 92, 42) 1px solid;
+  box-shadow: rgb(230, 92, 42) 0px 2px 2px;
+  cursor: pointer;
+  margin: 1rem;
+}
