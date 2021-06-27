@@ -1,0 +1,32 @@
+/*================================*/
+/*=== Partie sur le Swipe Menu ===*/
+/*================================*/
+/* Menu burger */
+#menuBurger {
+  cursor: pointer;
+  z-index: 6666;
+}
+#menuBurger .bar1,
+#menuBurger .bar2,
+#menuBurger .bar3 {
+  background-color: rgb(230, 92, 42);
+  height: 5px;
+  margin: 6px 0;
+  transition: 0.4s;
+  width: 32px;
+}
+#menuBurger.clicked .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+  transform: rotate(-45deg) translate(-9px, 6px);
+}
+#menuBurger.clicked .bar2 {
+  opacity: 0;
+}
+#menuBurger.clicked .bar3 {
+  -webkit-transform: rotate(45deg) translate(-8px, -8px);
+  transform: rotate(45deg) translate(-8px, -8px);
+}
+#menuBurger:hover {
+  opacity: 0.75;
+  transition: 0.5s;
+}
